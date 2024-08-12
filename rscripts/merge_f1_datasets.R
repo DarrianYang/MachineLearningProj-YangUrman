@@ -18,40 +18,52 @@ results <- read.csv("results.csv")
 seasons <- read.csv("seasons.csv")
 sprint_results <- read.csv("sprint_results.csv")
 
-# Race Results Analysis
+# 1. Race Results Analysis
 race_results <- results %>%
   inner_join(races, by = "raceId") %>%
   inner_join(drivers, by = "driverId") %>%
   inner_join(constructors, by = "constructorId") %>%
   inner_join(status, by = "statusId")
 
-# Driver Performance Over Time
+# 2. Driver Performance Over Time
 driver_performance <- driver_standings %>%
-  inner_join(drivers, by = "driverId") %>%
-  inner_join(seasons, by = "year")
+  inner_join(races, by = "raceId") %>%
+  inner_join(drivers, by = "driverId")
 
-# Constructor Performance Over Time
+# 3. Constructor Performance Over Time
 constructor_performance <- constructor_standings %>%
-  inner_join(constructors, by = "constructorId") %>%
-  inner_join(seasons, by = "year")
+  inner_join(races, by = "raceId") %>%
+  inner_join(constructors, by = "constructorId")
 
-# Sprint Race Results Analysis
+# 4. Sprint Race Results Analysis
 sprint_race_results <- sprint_results %>%
   inner_join(races, by = "raceId") %>%
   inner_join(drivers, by = "driverId") %>%
   inner_join(constructors, by = "constructorId") %>%
   inner_join(status, by = "statusId")
 
-# Lap Times and Pit Stops Analysis
-performance_metrics <- lap_times %>%
-  inner_join(pit_stops, by = c("raceId", "driverId"))
+# 5. Lap Times and Pit Stops Analysis (with Aggregation)
 
-# Qualifying Performance Analysis
+# Aggregate lap times: calculate the mean lap time per driver per race
+lap_times_agg <- lap_times %>%
+  group_by(raceId, driverId) %>%
+  summarize(mean_lap_time = mean(as.numeric(milliseconds)), .groups = 'drop')
+
+# Aggregate pit stops: count the number of pit stops per driver per race
+pit_stops_agg <- pit_stops %>%
+  group_by(raceId, driverId) %>%
+  summarize(total_pit_stops = n(), .groups = 'drop')
+
+# Join the aggregated datasets
+performance_metrics <- lap_times_agg %>%
+  inner_join(pit_stops_agg, by = c("raceId", "driverId"))
+
+# 6. Qualifying Performance Analysis
 qualifying_performance <- qualifying %>%
   inner_join(drivers, by = "driverId") %>%
   inner_join(races, by = "raceId")
 
-# Save the merged datasets
+# Save the merged datasets for further analysis
 write.csv(race_results, "race_results_merged.csv", row.names = FALSE)
 write.csv(driver_performance, "driver_performance_merged.csv", row.names = FALSE)
 write.csv(constructor_performance, "constructor_performance_merged.csv", row.names = FALSE)
