@@ -1,0 +1,70 @@
+ constructorId      driverId         raceId          resultId       number.x        
+ Min.   :  1.0   Min.   :  1.0   Min.   :   1.0   Min.   :    1   Length:26519      
+ 1st Qu.:  6.0   1st Qu.: 57.0   1st Qu.: 298.0   1st Qu.: 6630   Class :character  
+ Median : 25.0   Median :170.0   Median : 527.0   Median :13260   Mode  :character  
+ Mean   : 49.8   Mean   :274.4   Mean   : 546.4   Mean   :13261                     
+ 3rd Qu.: 60.0   3rd Qu.:385.0   3rd Qu.: 803.0   3rd Qu.:19890                     
+ Max.   :215.0   Max.   :860.0   Max.   :1132.0   Max.   :26524                     
+      grid         position         positionText       positionOrder       points     
+ Min.   : 0.00   Length:26519       Length:26519       Min.   : 1.00   Min.   : 0.00  
+ 1st Qu.: 5.00   Class :character   Class :character   1st Qu.: 6.00   1st Qu.: 0.00  
+ Median :11.00   Mode  :character   Mode  :character   Median :12.00   Median : 0.00  
+ Mean   :11.15                                         Mean   :12.81   Mean   : 1.96  
+ 3rd Qu.:17.00                                         3rd Qu.:18.00   3rd Qu.: 2.00  
+ Max.   :34.00                                         Max.   :39.00   Max.   :50.00  
+      laps           time.x          milliseconds        fastestLap            rank          
+ Min.   :  0.00   Length:26519       Length:26519       Length:26519       Length:26519      
+ 1st Qu.: 23.00   Class :character   Class :character   Class :character   Class :character  
+ Median : 53.00   Mode  :character   Mode  :character   Mode  :character   Mode  :character  
+ Mean   : 46.23                                                                              
+ 3rd Qu.: 66.00                                                                              
+ Max.   :200.00                                                                              
+ fastestLapTime     fastestLapSpeed       statusId           year          round       
+ Length:26519       Length:26519       Min.   :  1.00   Min.   :1950   Min.   : 1.000  
+ Class :character   Class :character   1st Qu.:  1.00   1st Qu.:1977   1st Qu.: 4.000  
+ Mode  :character   Mode  :character   Median : 10.00   Median :1991   Median : 8.000  
+                                       Mean   : 17.32   Mean   :1991   Mean   : 8.421  
+                                       3rd Qu.: 14.00   3rd Qu.:2008   3rd Qu.:12.000  
+                                       Max.   :141.00   Max.   :2024   Max.   :22.000  
+   circuitId        name.x              date              time.y             url.x          
+ Min.   : 1.00   Length:26519       Length:26519       Length:26519       Length:26519      
+ 1st Qu.: 9.00   Class :character   Class :character   Class :character   Class :character  
+ Median :18.00   Mode  :character   Mode  :character   Mode  :character   Mode  :character  
+ Mean   :23.68                                                                              
+ 3rd Qu.:34.00                                                                              
+ Max.   :80.00                                                                              
+   fp1_date           fp1_time           fp2_date           fp2_time           fp3_date        
+ Length:26519       Length:26519       Length:26519       Length:26519       Length:26519      
+ Class :character   Class :character   Class :character   Class :character   Class :character  
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character   Mode  :character  
+                                                                                               
+                                                                                               
+                                                                                               
+   fp3_time          quali_date         quali_time        sprint_date        sprint_time       
+ Length:26519       Length:26519       Length:26519       Length:26519       Length:26519      
+ Class :character   Class :character   Class :character   Class :character   Class :character  
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character   Mode  :character  
+                                                                                               
+                                                                                               
+                                                                                               
+  driverRef           number.y             code             forename           surname         
+ Length:26519       Length:26519       Length:26519       Length:26519       Length:26519      
+ Class :character   Class :character   Class :character   Class :character   Class :character  
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character   Mode  :character  
+                                                                                               
+                                                                                               
+                                                                                               
+     dob            nationality.x         url.y           constructorRef        name.y         
+ Length:26519       Length:26519       Length:26519       Length:26519       Length:26519      
+ Class :character   Class :character   Class :character   Class :character   Class :character  
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character   Mode  :character  
+                                                                                               
+                                                                                               
+                                                                                               
+ nationality.y          url           
+ Length:26519       Length:26519      
+ Class :character   Class :character  
+ Mode  :character   Mode  :character  
+                                      
+                                      
+                                      

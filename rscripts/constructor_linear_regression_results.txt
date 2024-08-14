@@ -1,0 +1,29 @@
+Linear Regression Model Summary:
+
+Call:
+lm(formula = position ~ ., data = trainData)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-8.120 -2.779 -0.583  2.151 18.610 
+
+Coefficients:
+                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)   30.7829997  5.1270948   6.004 2.00e-09 ***
+constructorId  0.0107383  0.0007283  14.745  < 2e-16 ***
+raceId        -0.0010775  0.0001627  -6.623 3.72e-11 ***
+points        -0.0097009  0.0008289 -11.703  < 2e-16 ***
+wins          -0.7588452  0.0320492 -23.677  < 2e-16 ***
+year          -0.0115288  0.0025718  -4.483 7.46e-06 ***
+circuitId      0.0132825  0.0022271   5.964 2.55e-09 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 3.718 on 9284 degrees of freedom
+Multiple R-squared:  0.2695,	Adjusted R-squared:  0.269 
+F-statistic: 570.7 on 6 and 9284 DF,  p-value: < 2.2e-16
+
+
+R-squared:  0.26946
+RMSE:  3.761538
+MAE:  2.990086 

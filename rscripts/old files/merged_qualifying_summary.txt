@@ -1,0 +1,49 @@
+    driverId         raceId         qualifyId     constructorId       number.x    
+ Min.   :  1.0   Min.   :   1.0   Min.   :    1   Min.   :  1.00   Min.   : 0.00  
+ 1st Qu.: 16.0   1st Qu.: 140.0   1st Qu.: 2565   1st Qu.:  4.00   1st Qu.: 7.00  
+ Median : 56.0   Median : 865.0   Median : 5130   Median :  9.00   Median :14.00  
+ Mean   :333.3   Mean   : 612.6   Mean   : 5141   Mean   : 46.88   Mean   :18.53  
+ 3rd Qu.:822.0   3rd Qu.: 997.0   3rd Qu.: 7714   3rd Qu.: 30.00   3rd Qu.:22.00  
+ Max.   :860.0   Max.   :1132.0   Max.   :10311   Max.   :215.00   Max.   :99.00  
+    position          q1                 q2                 q3                 year     
+ Min.   : 1.00   Length:10254       Length:10254       Length:10254       Min.   :1994  
+ 1st Qu.: 6.00   Class :character   Class :character   Class :character   1st Qu.:2005  
+ Median :11.00   Mode  :character   Mode  :character   Mode  :character   Median :2012  
+ Mean   :11.21                                                            Mean   :2011  
+ 3rd Qu.:16.00                                                            3rd Qu.:2018  
+ Max.   :28.00                                                            Max.   :2024  
+     round          circuitId        name               date               time          
+ Min.   : 1.000   Min.   : 1.0   Length:10254       Length:10254       Length:10254      
+ 1st Qu.: 5.000   1st Qu.: 6.0   Class :character   Class :character   Class :character  
+ Median : 9.000   Median :13.0   Mode  :character   Mode  :character   Mode  :character  
+ Mean   : 9.669   Mean   :19.4                                                           
+ 3rd Qu.:14.000   3rd Qu.:22.0                                                           
+ Max.   :22.000   Max.   :80.0                                                           
+    url.x             fp1_date           fp1_time           fp2_date           fp2_time        
+ Length:10254       Length:10254       Length:10254       Length:10254       Length:10254      
+ Class :character   Class :character   Class :character   Class :character   Class :character  
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character   Mode  :character  
+                                                                                               
+                                                                                               
+                                                                                               
+   fp3_date           fp3_time          quali_date         quali_time        sprint_date       
+ Length:10254       Length:10254       Length:10254       Length:10254       Length:10254      
+ Class :character   Class :character   Class :character   Class :character   Class :character  
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character   Mode  :character  
+                                                                                               
+                                                                                               
+                                                                                               
+ sprint_time         driverRef           number.y             code             forename        
+ Length:10254       Length:10254       Length:10254       Length:10254       Length:10254      
+ Class :character   Class :character   Class :character   Class :character   Class :character  
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character   Mode  :character  
+                                                                                               
+                                                                                               
+                                                                                               
+   surname              dob            nationality           url.y          
+ Length:10254       Length:10254       Length:10254       Length:10254      
+ Class :character   Class :character   Class :character   Class :character  
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character  
+                                                                            
+                                                                            
+                                                                            

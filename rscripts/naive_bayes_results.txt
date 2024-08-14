@@ -1,0 +1,32 @@
+Confusion Matrix for Naive Bayes:
+Confusion Matrix and Statistics
+
+          Reference
+Prediction    1    2    3    4
+         1   42    0    0    4
+         2    1 3085   10    0
+         3    0  191  511    1
+         4    0    0    3  132
+
+Overall Statistics
+                                         
+               Accuracy : 0.9472         
+                 95% CI : (0.9398, 0.954)
+    No Information Rate : 0.8231         
+    P-Value [Acc > NIR] : < 2.2e-16      
+                                         
+                  Kappa : 0.8426         
+                                         
+ Mcnemar's Test P-Value : NA             
+
+Statistics by Class:
+
+                     Class: 1 Class: 2 Class: 3 Class: 4
+Sensitivity           0.97674   0.9417   0.9752  0.96350
+Specificity           0.99898   0.9844   0.9444  0.99922
+Pos Pred Value        0.91304   0.9964   0.7269  0.97778
+Neg Pred Value        0.99975   0.7839   0.9960  0.99870
+Prevalence            0.01080   0.8231   0.1317  0.03442
+Detection Rate        0.01055   0.7751   0.1284  0.03317
+Detection Prevalence  0.01156   0.7779   0.1766  0.03392
+Balanced Accuracy     0.98786   0.9630   0.9598  0.98136

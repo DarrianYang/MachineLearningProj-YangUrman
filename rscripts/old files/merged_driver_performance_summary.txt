@@ -1,0 +1,49 @@
+      year         driverId         raceId       driverStandingsId     points      
+ Min.   :1950   Min.   :  1.0   Min.   :   1.0   Min.   :    1     Min.   :  0.00  
+ 1st Qu.:1968   1st Qu.: 87.0   1st Qu.: 352.0   1st Qu.:19768     1st Qu.:  0.00  
+ Median :1985   Median :222.0   Median : 600.0   Median :49910     Median :  1.00  
+ Mean   :1985   Mean   :313.5   Mean   : 580.1   Mean   :42944     Mean   : 14.11  
+ 3rd Qu.:2004   3rd Qu.:517.0   3rd Qu.: 803.0   3rd Qu.:59300     3rd Qu.: 10.00  
+ Max.   :2024   Max.   :860.0   Max.   :1132.0   Max.   :72871     Max.   :575.00  
+    position      positionText            wins             round          circuitId    
+ Min.   :  1.00   Length:34595       Min.   : 0.0000   Min.   : 1.000   Min.   : 1.00  
+ 1st Qu.:  8.00   Class :character   1st Qu.: 0.0000   1st Qu.: 5.000   1st Qu.:10.00  
+ Median : 16.00   Mode  :character   Median : 0.0000   Median : 8.000   Median :19.00  
+ Mean   : 19.78                      Mean   : 0.2731   Mean   : 8.462   Mean   :25.79  
+ 3rd Qu.: 26.00                      3rd Qu.: 0.0000   3rd Qu.:12.000   3rd Qu.:39.00  
+ Max.   :108.00                      Max.   :19.0000   Max.   :22.000   Max.   :80.00  
+     name               date               time              url.x             fp1_date        
+ Length:34595       Length:34595       Length:34595       Length:34595       Length:34595      
+ Class :character   Class :character   Class :character   Class :character   Class :character  
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character   Mode  :character  
+                                                                                               
+                                                                                               
+                                                                                               
+   fp1_time           fp2_date           fp2_time           fp3_date           fp3_time        
+ Length:34595       Length:34595       Length:34595       Length:34595       Length:34595      
+ Class :character   Class :character   Class :character   Class :character   Class :character  
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character   Mode  :character  
+                                                                                               
+                                                                                               
+                                                                                               
+  quali_date         quali_time        sprint_date        sprint_time         driverRef        
+ Length:34595       Length:34595       Length:34595       Length:34595       Length:34595      
+ Class :character   Class :character   Class :character   Class :character   Class :character  
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character   Mode  :character  
+                                                                                               
+                                                                                               
+                                                                                               
+    number              code             forename           surname              dob           
+ Length:34595       Length:34595       Length:34595       Length:34595       Length:34595      
+ Class :character   Class :character   Class :character   Class :character   Class :character  
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character   Mode  :character  
+                                                                                               
+                                                                                               
+                                                                                               
+ nationality           url.y               url           
+ Length:34595       Length:34595       Length:34595      
+ Class :character   Class :character   Class :character  
+ Mode  :character   Mode  :character   Mode  :character  
+                                                         
+                                                         
+                                                         
